@@ -15,6 +15,6 @@ build() {
 }
 
 package() {
-    cd "$srcdir/sgsd-$pkgver/src"
+    cd "$srcdir/sgsd-$pkgver"
     install -Dm755 sgsd.py "$pkgdir/usr/bin/$pkgname"
 }
